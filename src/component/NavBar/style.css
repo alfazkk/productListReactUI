@@ -1,0 +1,19 @@
+.navBar {
+  height: 70px;
+  border-bottom: 1px solid grey;
+  padding: 0 10px;
+}
+
+.navBar ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  height: 100%;
+  list-style: none;
+}
+
+.navBar li {
+  text-decoration: underline;
+  cursor: pointer;
+}

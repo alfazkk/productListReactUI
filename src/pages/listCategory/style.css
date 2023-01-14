@@ -1,0 +1,22 @@
+.listCategory{
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.listCategory h1{
+  margin-bottom: 20px;
+}
+
+.listCategory-item{
+  padding: 10px;
+  border: 1px solid grey;
+  margin-bottom: 5px;
+}
+
+.listCategory-item:hover{
+  cursor: pointer;
+  background-color: rgb(238, 235, 235);
+}
